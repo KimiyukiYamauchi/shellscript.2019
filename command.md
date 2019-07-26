@@ -148,3 +148,5 @@
         - カレントディレクトリを/vagrantに移動
     - tar cvzf home.0629.tar.gz ~/.
         - ホームディレクトリ以下をhome.0629.tar.gzでアーカイブ/圧縮(gzip)
+    - sudo tar czf backup-`date +'%Y%m%d'`.tar.gz (バックアップするディレクトリ)
+        - (バックアップするディレクトリ)以下をbackup-yyyymmdd.tar.gzでアーカイブ/圧縮(gzip)
