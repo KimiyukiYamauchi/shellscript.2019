@@ -1,0 +1,1 @@
+sudo tar zcf backup-`date +'%Y%m%d'`.tar.gz -X ~/backup/ex.conf ~/
